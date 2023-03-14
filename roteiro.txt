@@ -1,0 +1,26 @@
+      data      |       modulo          |                    OBS:                     |
+---------------------------------------------------------------------------------------
+    23/03/23    | atividade kodular PHP     
+----------------------------------------|    
+               integrante                   					         
+--------------------------------------------------------------------------------------| 
+Nome: Gabriel Carvalho Mota
+Nome: Luiz Felipe Mendes
+======================================================================================| 
+1- subistituir as perguntas na pagina html
+
+2-criar uma base de dados com nome suporte
+
+3-colocar a pasta suporte dentro do htdocs do xampp ou www do wamp
+
+4-gerar o qr-code no link "https://br.qr-code-generator.com/" 
+
+5-utilizar  "leitor de qr-code" para chamar a pagina no app
+--------------------------------------------------------------------------------------|
+
+Perguntas  
+1- A máquina está iniciando corretamente?
+2- Os periféricos estão funcionando corretamente(Mouse, Teclado, Fone)?
+3- Você está conseguindo acessar a internet?
+4- Você está tendo problemas para conectar-se a uma rede sem fio?
+

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	background-color: #2e478b;
+	color: white;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+	font-size: 26px;
+	text-transform: uppercase;
+}
+
+h2 {
+	margin: 0;
+	font-size: 18px;
+	font-style: italic;
+}
+
+.titulo2{
+	color: #ffffff;
+	position:height;
+	font-size:35;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	background-color: #2e478b;
+	height: 50;
+	width: 140;
+    text-align: left;
+	padding-left: 8;
+	padding-top: 8;
+	padding-bottom: 10;
+	border-radius: 8px;
+	box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.349);
+	margin: 3%;
+}
+
+.texto1{
+	color:#ffffff;
+	font-size:16;
+	font-family: 'Noto Sans', sans-serif;
+	background-color: #2e478b;
+	height: 70;
+    text-align: left;
+	padding-left: 10;
+	padding-top: 8;
+	border-radius: 8px;
+	box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.349);
+	box-shadow: 8px -10px rgb(68, 60, 100);
+	margin: 3%;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 600px;
+	
+	}
+	td {
+	border: 1px solid black;
+	padding: 10px;
+	box-align: center;
+	}
+
+.fundotxt{
+
+	background-color: #ffffff;
+	height: 27;
+    text-align: left;
+	padding-left: 10;
+	padding-top: 4;
+	border-radius: 8px;
+	margin-left: 5;
+	margin-top: 10px;
+}
+
+.PG{
+   
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fundotxt2{
+	background-color: #ffffff;
+	height: 27;
+    text-align: left;
+	padding-left: 10;
+	padding-top: 4;
+	border-radius: 8px;
+	margin-left: 5;
+}
+
+.btn{
+	background-color: #2e478b;
+	height: 60;
+	width: 110;
+	margin-right: 8cm;
+    text-align: left;
+	color: white;
+	padding-left: 16;
+	padding-top: 2;
+	border-radius: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 29;
+
+
+}
+
+.fundo{  
+	background-color:#5f64a32d;
+	background-repeat: no-repeat;
+	background-position: 0px 0px; 
+	background-attachment: fixed; ;
+}
+	
+.opcao{
+	border-radius: 10px;
+	width:75px;
+	font-size: 20px;
+}
+
+.QR{
+    position: right;
+	margin-left: 180;
+	margin-right: 20;
+
+}
+
+.mensagem-sucesso {
+	background-color: #dff0d8;
+	color: #3c763d;
+	border: 1px solid #d6e9c6;
+	padding: 10px;
+	margin-bottom: 10px;
+  }

@@ -1,0 +1,81 @@
+<Html>
+	<head>
+		<meta charset="utf-8">
+		<title> Suporte </title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</Head>
+	<Body class="fundo">
+		<header>
+			<h1>Suporte</h1>
+			<h2>Feedback</h2>
+		</header>
+		<br/>
+		<br/>
+		<br/>
+		<form name="cadastro" action="Inserir.php" method="POST" align="center">
+			<table>
+				<tr>
+					<td><label>Nome</label></td>
+					<td><input type="text" name="nomeAluno" size="30" class="fundotxt" required></td>
+				</tr>
+				<tr>
+					<td><label>Laboratório</label></td>
+					<td><input type="text" name="laboratorio" size="30"  class="fundotxt" required></td>
+				</tr>
+				<tr>
+					<td colspan="2"><p align="center">Feedback</p></td>
+				</tr>
+				<tr>
+					<td><label>A máquina está iniciando corretamente?</label></td>
+					<td align="center">
+						<select name="pergunta01" class="opcao">
+							<option value="Sim">sim</option>
+							<option value="nao">não</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label>Os periféricos estão funcionando corretamente(Mouse, Teclado, Fone)?</label></td>
+					<td align="center">
+						<select name="pergunta02" class="opcao">
+							<option value="sim">sim</option>
+							<option value="nao">não</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label>Você está conseguindo acessar a internet?</label></td>
+					<td align="center">
+						<select name="pergunta03" class="opcao">
+							<option value="sim">sim</option>
+							<option value="nao">não</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label>Você está tendo problemas para conectar-se a uma rede sem fio?</label></td>
+					<td align="center">
+						<select name="pergunta04" class="opcao">
+							<option value="sim">sim</option>
+							<option value="nao">não</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+			<br/>
+			<p class="QR">
+				<img src="frame.png" alt="QR"  width="160" height="150" style="float:right" >
+			</p>
+			<input type="submit" name="enviar" value="Enviar" class="btn">
+		
+		</form>
+		<p class="titulo2">Contato:</p>		
+		<p class="texto1">
+			Olá! Obrigado por visitar nosso site de feedback/suporte. Se você encontrou
+			algum problema, por favor, responda ao questionário acima.
+			Nós valorizamos sua opinião e faremos o nosso melhor para ajudar a
+			resolver qualquer problema o mais rápido possível. Obrigado!<br/>
+		</p>
+		
+	</Body>
+</Html>			

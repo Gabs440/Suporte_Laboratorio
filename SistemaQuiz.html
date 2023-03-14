@@ -1,0 +1,87 @@
+<Html>
+	<head>
+		
+		
+		<meta charset="utf-8">
+		<title> Sistema Quiz </title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</Head>
+	
+	<Body class="fundo">
+		
+	<p class="titulo1">Reciclagem</p>
+		<br/>
+		
+		<form name="Cadastro" action="Inserir.php" method="POST" align="center" >
+			<label>Nome</label>
+			<input type="text" name="NomeCliente" size="50" class="fundotxt" required><br>
+			
+			<label>Email</label>
+			<input type="text" name="EmailCliente" size="50" class="fundotxt" required><br><br>
+		
+			<p align=center>Perguntas Quiz</p>
+			<br>
+			<label>Você faz a separação do lixo eletrônico em sua casa?</label>
+			<select name="diretivas">
+				<option value="muito">sim</option>
+				<option value="pouco">não</option>
+			</select>
+			
+			<br/>
+			<br/>
+			<br/>
+			
+			<label>Se sim, você descarta esse lixo da forma correta?</label>
+			<select name="WEEE_ROHS">
+				<option value="muito">sim</option>
+				<option value="pouco">não</option>
+			</select>
+			
+			<br/>
+			<br/>
+			<br/>
+			
+			<label>Você tem interesse em um app que pode te ajudar a se livrar desse lixo?</label>
+			<select name="Lei_Federal">
+				<option value="sim">sim</option>
+				<option value="nao">não</option>
+			</select>
+			
+			<br/>
+			<br/>
+			<br/>
+			
+			<label>Você participaria de alguma campanha de coleta de lixo ?</label>
+			<select name="Logística_Reversa">
+				<option value="sim">sim</option>
+				<option value="nao">não</option>
+				<option value="nao">talvez</option>
+			</select>
+			
+			<br/>
+			</select>
+			
+			<br/>
+			
+			<input type="submit" name="enviar" value="Enviar" class="btn">
+			</form>
+			
+			<br/>
+			<br/>
+			
+					<p class="titulo2">Nossa Meta:</p>
+					
+					<p class="texto1">
+						Vamos cuidar do nosso planeta, pois ele é a nossa única casa, 
+					    e nós somos tão privilegiados por ter uma casa cheia de vida.<br/> 
+					    Não podemos deixar que ela seja destruída dessa forma.<br/>
+					    Então, Bora reciclar!!<br/>
+					</p>
+					
+					
+			  
+			
+			</Body>
+			
+			</Html>			
